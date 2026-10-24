@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sri Selvarasu Enterprises (Polypack Industries) - manufacturer and supplier of poly covers, printed rolls, stretch film and bubble rolls in Bengaluru.">
+<title>Sri Selvarasu Enterprises | Polypack Industries</title>
+<link rel="icon" href="assets/logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container bar">
+    <a class="brand" href="#home"><img class="logo" src="assets/logo.png" alt="Sri Selvarasu Enterprises logo"><span class="bt"><b>Sri Selvarasu Enterprises</b><span class="meta"><i>
+<svg viewBox="0 0 24 24" width="15" height="15" fill="#c0392b"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.500A2.500 2.500 0 1 1 12 6.500a2.500 2.500 0 0 1 0 5z"/></svg>Bengaluru, Karnataka</i><i>
+<svg viewBox="0 0 24 24" width="15" height="15"><circle cx="12" cy="12" r="11" fill="#d35400"/><path d="M7 12.500l3.200 3.200L17 9" stroke="#fff" stroke-width="2.400" fill="none"/></svg>GST No. <strong>29AAZPI0511K1ZD</strong></i><i>
+<svg viewBox="0 0 24 24" width="15" height="15"><circle cx="12" cy="12" r="11" fill="#0a8f6a"/><path d="M7 12.500l3.200 3.200L17 9" stroke="#fff" stroke-width="2.400" fill="none"/></svg>Polypack Industries</i></span></span></a>
+    <div class="actions">
+      <a class="btn call" href="tel:+919343476166">Call +91 93434 76166</a>
+      <a class="btn wa" href="https://wa.me/919449425460" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+  <div class="navwrap"><nav class="container" id="nav">
+    <a data-page="home" href="#home">Home</a>
+    <a data-page="about" href="#about">About Us</a>
+    <a data-page="products" href="#products">Products</a>
+    <a data-page="contact" href="#contact">Contact Us</a>
+    <input id="search" type="search" placeholder="Search products" aria-label="Search products">
+  </nav></div>
+</header>
+
+<main>
+  <!-- HOME -->
+  <section class="view" id="home">
+    <div class="container hero">
+      <div class="hero-copy">
+        <h1>Packaging that protects what you sell.</h1>
+        <p>Poly covers, printed rolls, stretch film and bubble rolls, made to your size and thickness and delivered on time.</p>
+        <div class="row"><a class="btn solid" href="#products">View products</a><a class="btn line" href="#contact">Get a quote</a></div>
+      </div>
+      <div class="hero-img"><img src="assets/hero-packaging.jpg" alt="Polypack Industries packaging materials"></div>
+    </div>
+    <div class="container"><div class="custom"><div><h2>Made to your specification</h2><p>Every product can be customised to your size, thickness, printing and order quantity.</p></div><ul><li>Size</li><li>Thickness</li><li>Printing</li><li>Quantity</li></ul><a class="btn wa" href="#contact">Request custom quote</a></div></div>
+    <div class="container"><h2 class="h2s">Popular products</h2><div class="grid" id="popular"></div></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="view" id="about">
+    <div class="container page-head"><h1>About us</h1><p>Polyethylene packaging for industrial and commercial use.</p></div>
+    <div class="container two">
+      <div>
+        <h2>Dependable packaging, practical service.</h2>
+        <p>Sri Selvarasu Enterprises, through Polypack Industries, manufactures and supplies polyethylene packaging for industrial and commercial applications from Bengaluru.</p>
+        <p>Plain covers for everyday packing, printed covers for branding, rolls for continuous use, or stretch film for secure transport: we supply to your requirement.</p>
+      </div>
+      <ul class="points">
+        <li><b>Quality materials</b>Consistent film for regular business use.</li>
+        <li><b>Made to order</b>Your size, thickness, printing and quantity.</li>
+        <li><b>On-time delivery</b>Free delivery on eligible orders and locations.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="view" id="products">
+    <div class="container page-head"><h1>Our products</h1><p>Tell us size, thickness, quantity and use. We will suggest the right option.</p></div>
+    <div class="container"><div class="custom"><div><h2>Made to your specification</h2><p>Every product can be customised to your size, thickness, printing and order quantity.</p></div><ul><li>Size</li><li>Thickness</li><li>Printing</li><li>Quantity</li></ul><a class="btn wa" href="#contact">Request custom quote</a></div></div>
+<div class="container" id="groups"></div>
+    <p class="container empty" id="empty" hidden>No product matches your search. Try "rolls" or "covers".</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="view" id="contact">
+    <div class="container page-head"><h1>Request a quote</h1><p>Share product, size, thickness, quantity and delivery location.</p></div>
+    <div class="container two">
+      <div class="details">
+        <div><span>Phone</span><a href="tel:+919343476166">+91 93434 76166</a></div>
+        <div><span>Email</span><a href="mailto:sriselvarasuenterprises@gmail.com">sriselvarasuenterprises@gmail.com</a></div>
+        <div><span>Address</span>No 20, Vishwaneedam, Post, Gollarapalya Hosahalli, Bengaluru, Karnataka 560091
+          <a href="https://share.google/QRfentacckuy4abII" target="_blank" rel="noopener">Open in Google Maps</a></div>
+      </div>
+      <form class="form" onsubmit="sendWhatsApp(event)">
+        <input id="name" placeholder="Your name" required>
+        <input id="phone" type="tel" placeholder="Phone number" required>
+        <input id="product" placeholder="Product required">
+        <textarea id="message" rows="4" placeholder="Size, thickness, quantity"></textarea>
+        <button class="btn solid" type="submit">Send enquiry on WhatsApp</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer><div class="container foot"><b>Sri Selvarasu Enterprises</b><span>GSTIN: 29AAZPI0511K1ZD</span><span>© <span id="year"></span> All rights reserved.</span></div></footer>
+<a class="wa-float" href="https://wa.me/919449425460?text=Hello%20Polypack%20Industries%2C%20I%20need%20a%20packaging%20quote." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32" width="34" height="34" fill="#fff" aria-hidden="true"><path d="M16 3C9 3 3.4 8.6 3.4 15.5c0 2.3.6 4.4 1.7 6.3L3 29l7.4-2c1.8 1 3.8 1.5 5.9 1.5 6.9 0 12.6-5.6 12.6-12.5S22.900 3 16 3zm0 22.800c-1.900 0-3.700-.5-5.300-1.500l-.4-.2-4.400 1.200 1.200-4.300-.3-.4a10.200 10.200 0 0 1-1.600-5.500C5.200 9.400 10 4.900 16 4.900s10.800 4.600 10.800 10.600S22 25.800 16 25.800zm5.900-7.600c-.3-.2-1.900-1-2.200-1.100-.3-.1-.5-.2-.7.200-.2.300-.8 1.100-1 1.300-.2.200-.4.200-.7.100-.3-.2-1.400-.5-2.600-1.600-1-.9-1.600-1.900-1.800-2.200-.2-.3 0-.5.100-.7l.5-.6c.2-.2.200-.3.300-.5.100-.2.100-.4 0-.6-.1-.2-.7-1.700-1-2.300-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.100-.9.400-.3.300-1.200 1.200-1.200 2.800s1.200 3.300 1.400 3.500c.2.200 2.300 3.600 5.700 5 .8.300 1.400.5 1.900.7.800.3 1.500.2 2.100.1.600-.1 1.900-.8 2.200-1.600.3-.8.3-1.400.2-1.600-.1-.2-.3-.3-.6-.4z"/></svg>
+</a>
+<script src="script.js"></script>
+</body>
+</html>
